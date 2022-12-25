@@ -11,8 +11,8 @@
     <div class="leaderboard">
        
         <div class="description">
-            <h1>  🌍 Global rank for 2022. </h1>
-            <h3>  Github ✖ Canva  </h3>
+            <h1 class="neon" >  🌍 Global rank for 2022 </h1>
+            <h3>  Github Team Barzo ✖ Canva Team Visme </h3>
           </div>
           
         </div>
@@ -177,21 +177,14 @@
             </table>
         </div>
     </div>
+
+<br>
+
+<div class="footer">
+  <p>Copyright © 2022 Team TEAM BARZO ✖ TEAM VISME </p>
+</div>
+
+
 </body>
-<script>
-    function search(){
-        var text = document.getElementById('search').value;
-        const tr = document.getElementsByTagName('tr');
-        for (let i=1;i<tr.length;i++){
-            if(!tr[i].children[1].children[1].innerHTML.toLowerCase().includes(
-                text.toLowerCase()
-            )){
-                tr[i].style.display = 'none';
-            }
-            else{
-                tr[i].style.display = '';
-            }
-        }
-    }
-</script>
+
 </html>
